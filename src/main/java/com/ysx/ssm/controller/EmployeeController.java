@@ -39,6 +39,7 @@ public class EmployeeController {
         System.out.println("跳转成功！");
         System.out.println("hot-fix finsh");
         System.out.println("main test");
+        System.out.println("hot-fix test");
         return "employee_list";
     }
 
