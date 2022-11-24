@@ -40,12 +40,5 @@ public class EmployeeController {
         return "employee_list";
     }
 
-    @RequestMapping(value = "/employee",method = RequestMethod.GET)
-    public String getAllEmployee(Model model){
-        List<Employee> list = employeeService.getAllEmployee();
-        //共享到域对象
-        model.addAttribute("list",list);
-        //跳转到employee_list.html
-        return "employee_list";
-    }
+
 }
