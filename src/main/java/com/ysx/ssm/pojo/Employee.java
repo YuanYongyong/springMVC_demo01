@@ -5,6 +5,7 @@ package com.ysx.ssm.pojo;
  * @DateTime 2022/11/23 16:01
  * @Description
  */
+@SuppressWarnings({"all"})
 public class Employee {
     private Integer empId;
     private String empName;

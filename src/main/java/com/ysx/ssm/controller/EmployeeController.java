@@ -3,7 +3,6 @@ package com.ysx.ssm.controller;
 import com.github.pagehelper.PageInfo;
 import com.ysx.ssm.pojo.Employee;
 import com.ysx.ssm.service.EmployeeService;
-import org.aspectj.apache.bcel.classfile.Module;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.util.List;
 
 /**
  * @Author ysx
@@ -25,6 +23,7 @@ import java.util.List;
  * 修改员工信息->/employee->put
  * 删除员工信息->/employee/1->delete
  */
+@SuppressWarnings({"all"})
 @Controller
 public class EmployeeController {
 

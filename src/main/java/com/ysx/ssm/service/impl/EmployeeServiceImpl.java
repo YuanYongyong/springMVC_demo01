@@ -16,6 +16,7 @@ import java.util.List;
  * @DateTime 2022/11/23 15:26
  * @Description
  */
+@SuppressWarnings({"all"})
 @Service
 @Transactional
 public class EmployeeServiceImpl implements EmployeeService {
