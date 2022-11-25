@@ -40,6 +40,7 @@ public class EmployeeController {
         System.out.println("hot-fix finsh");
         System.out.println("main test");
         System.out.println("hot-fix test");
+        System.out.println("push test");
         return "employee_list";
     }
 
